@@ -1,12 +1,7 @@
-// ==========================================
-// CONFIGURAÇÃO DO SUPABASE
-// ==========================================
+
 const SUPABASE_URL = 'https://grxrzlsoorgtjwoukdsk.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdyeHJ6bHNvb3JndGp3b3VrZHNrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzNTczMjYsImV4cCI6MjEwMzkzMzMyNn0.Yr_AjvjWzZoedzTO1dttJLO99cH2ID0uxR5FGZ1PGx4';
 
-// ==========================================
-// INICIALIZAÇÃO DO SUPABASE
-// ==========================================
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 console.log("🏴‍☠️ Supabase inicializado com sucesso!");
